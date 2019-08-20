@@ -45,7 +45,7 @@ TARGET_KERNEL_CONFIG := vince_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/vince
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_PATH := $(PWD)/vendor/qcom/sdclang/6.0/prebuilt/linux-x86_64/bin
+TARGET_KERNEL_CLANG_VERSION := 7.0.2
 TARGET_KERNEL_VERSION := 4.9
 
 # ANT
